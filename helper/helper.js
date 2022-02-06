@@ -158,7 +158,7 @@ export const GinoWorks = {
           "alt" : "invitaciones web gino pietrobon",
           "text": "Proyecto para realizar invitaciones a eventos, estilo página web",
           "code": "Página desarrollada con HTML, CSS y JavaScript",
-          "url" : "https://devzeppelin.github.io/graphics-with-css-and-javascript/index.html"
+          "url" : "https://devzeppelin.github.io/InvitacionWeb/"
       },
       {
           "name" : "Gráficos con HTML y CSS",
@@ -166,7 +166,7 @@ export const GinoWorks = {
           "alt" : "graphics css html gino pietrobon",
           "text": "Realizando gráficos en movimiento con CSS y JavaScript",
           "code": "Página desarrollada con HTML, CSS y JavaScript",
-          "url" : "https://devzeppelin.github.io/graphics-with-css-and-javascript/index.html/"
+          "url" : "https://devzeppelin.github.io/graphics-with-css-and-javascript/index.html"
       }
   ]
 

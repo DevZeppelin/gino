@@ -58,6 +58,7 @@ export default function Home() {
                 alt={app.alt}
                 text={app.text}
                 code={app.code}
+                url={app.url}
               />
             ))}
           </div>
@@ -72,6 +73,7 @@ export default function Home() {
                 alt={empresa.alt}
                 text={empresa.text}
                 code={empresa.code}
+                url={empresa.url}
               />
             ))}
           </div>
@@ -86,6 +88,7 @@ export default function Home() {
                 alt={proyecto.alt}
                 text={proyecto.text}
                 code={proyecto.code}
+                url={proyecto.url}
               />
             ))}
           </div>
@@ -100,6 +103,7 @@ export default function Home() {
                 alt={proyecto.alt}
                 text={proyecto.text}
                 code={proyecto.code}
+                url={proyecto.url}
               />
             ))}
           </div>
