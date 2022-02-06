@@ -1,9 +1,33 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+html {
+  background-image: -webkit-linear-gradient(
+    top left ,
+   
+    #16C79A 0%,
+    #F8F1F1 15%,
+    #F8F1F1 85%,
+    #11698E 100%
+  );
+}
+
+
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+   
+}
+
+h2 {
+  font-family: 'Staatliches', cursive;
 }
 
 a {
