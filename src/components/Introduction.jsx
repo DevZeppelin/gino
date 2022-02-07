@@ -19,7 +19,7 @@ const Introduction = () => {
       <div>
         <img src="../icons/react.png" className="mx-auto" />
         <p className="p-6">
-          Mi <strong>inglés</strong> es <i>intermedio-avanzado</i>. Me gusta leer libros de tecnología en inglés, y nunca para de perfeccionarlo 
+          Mi <strong>inglés</strong> es <i>intermedio-avanzado</i>. Me gusta leer libros de tecnología en inglés, y nunca parar de perfeccionarlo 
         </p>
       </div>
       <div>

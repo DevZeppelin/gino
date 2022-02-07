@@ -6,7 +6,7 @@ const Card = ({ name, src, alt, text, code, url }) => {
   return (
     <Fade left>
       <div className="relative m-4 border-8 border-dark border-opacity-50 bg-gradient-to-b from-blue hover:to-lgreen to-white rounded-lg p-4">
-        <h1 className="text-2xl p-2 text-white">{name}</h1>
+        <h2 className="text-3xl p-2 text-white font-thin ">{name}</h2>
         <div className="h-40 flex justify-center rounded-md">
           <img src={src} alt={alt} className=" mx-auto m-4 p-2 rounded-2xl" />
         </div>

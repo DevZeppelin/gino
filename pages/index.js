@@ -101,7 +101,7 @@ export default function Home() {
             ))}
           </div>
 
-          <Title name="Mis primeros proyectos (antiguos)" />
+          <Title name="Mis primeros proyectos + antiguos" />
           <div className="grid grid-cols-1 md:grid-cols-3 mx-2 md:mx-12">
             {GinoWorks.proyectosOld.map((proyecto) => (
               <Card

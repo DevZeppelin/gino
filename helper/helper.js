@@ -1,7 +1,7 @@
 export const GinoWorks = {
   apps: [
     {
-      name: "App Administración de clientes",
+      name: "Administración de clientes",
       src: "../logos/administrator.png",
       alt: "administrador de clientes crud",
       text: "Un panel de administración en donde se agregan, modifican y eliminan clientes de un sistema de datos",
@@ -26,7 +26,7 @@ export const GinoWorks = {
     },
 
     {
-      name: "App de gastos y presupuestos",
+      name: "Gastos y presupuestos",
       src: "../logos/gastapp.png",
       alt: "app de gastos y presupuestos",
       text: "App que sirve para calcular gastos y presupuesto general",
@@ -34,7 +34,7 @@ export const GinoWorks = {
       url: "https://presupuesto-app-psi.vercel.app/",
     },
     {
-      name: "App administración de turnos",
+      name: "Administración de turnos",
       src: "../logos/turnon.png",
       alt: "app de turnos",
       text: "App para agendar y administrar turnos, adaptable a cualqueir negocio",
@@ -42,15 +42,15 @@ export const GinoWorks = {
       url: "https://administrador-de-turnos.vercel.app/",
     },
     {
-      name: "App Cotizador de Criptomonedas",
+      name: "Cotizador de Criptomonedas",
       src: "../logos/cotizacripto.png",
       alt: "app de criptomodenas",
-      text: "Cotizador online de criptomonedas",
+      text: "Aplicación web que cotiza criptomonedas a través de una API",
       code: "App desarrollada con React.js, Emotion Styled Components, y Axios para consumir la API de criptomonedas",
       url: "https://cotizacripto.vercel.app/",
     },
     {
-      name: "App de información del clima",
+      name: "Información del clima",
       src: "../logos/climapp.png",
       alt: "app de clima",
       text: "Aplicación de clima donde el usuario ingresa ciudad y país, y esta entrega datos del clima",
