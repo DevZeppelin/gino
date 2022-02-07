@@ -1,11 +1,11 @@
 import React from "react";
 import Button from "./Button";
-import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 
 const Card = ({ name, src, alt, text, code, url }) => {
   return (
-    <Zoom>
-      <div className="relative m-4 border-8 border-dark border-opacity-50 bg-gradient-to-b from-blue hover:to-green to-white rounded-lg p-4">
+    <Fade left>
+      <div className="relative m-4 border-8 border-dark border-opacity-50 bg-gradient-to-b from-blue hover:to-lgreen to-white rounded-lg p-4">
         <h1 className="text-2xl p-2 text-white">{name}</h1>
         <div className="h-40 flex justify-center rounded-md">
           <img src={src} alt={alt} className=" mx-auto m-4 p-2 rounded-2xl" />
@@ -20,7 +20,7 @@ const Card = ({ name, src, alt, text, code, url }) => {
           </div>
         </div>
       </div>
-    </Zoom>
+    </Fade>
   );
 };
 

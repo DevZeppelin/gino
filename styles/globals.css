@@ -10,11 +10,14 @@ html {
     top left ,
    
     #16C79A 0%,
-    #F8F1F1 15%,
-    #F8F1F1 85%,
+    #F8F1F1 6%,
+    #F8F1F1 92%,
     #11698E 100%
+    
   );
+  scroll-behavior: smooth;
 }
+
 
 
 body {

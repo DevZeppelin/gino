@@ -6,8 +6,6 @@ import Button from "../src/components/Button";
 import Networks from "../src/components/Networks";
 import Introduction from "../src/components/Introduction";
 
-
-
 export default function Home() {
   console.log(GinoWorks);
 
@@ -23,32 +21,42 @@ export default function Home() {
       </Head>
 
       <main>
-        <span><Networks/></span>
+        <span>
+          <Networks />
+        </span>
         <div className="text-center m-6 mt-24">
           <h1 className="text-6xl font-extrabold text-dark pb-12">
-            Portfolio De Gino
+            Portafolio De Gino
           </h1>
-          
-          <a
-            className="w-32"
-            href="https://github.com/DevZeppelin/devzeppelin"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <Button text="Link a mi Github" />
+
+          <div className="flex flex-col mx-0 space-y-6">
+            <a
+              
+              href="https://github.com/DevZeppelin/devzeppelin"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <Button text="Link a mi Github" />
+            </a>
+            <a href="#works">
+              <Button text="Mis trabajos realizados" />
+            </a>
+          </div>
+        </div>
+
+        <Introduction />
+
+        <div className="p-12 text-center mt-32  text-white bg-gradient-to-tr from-green to-dark">
+          <h3 className="text-2xl font-bold">
+            ¡Te invito a conocer mis trabajos y proyectos realizados!
+          </h3>
+          <a href="#works">
+            <p className="text-3xl mt-6">🔽</p>
           </a>
         </div>
 
-       <Introduction />
-
-
-        <div className="p-12 text-center mt-32  text-white bg-gradient-to-tr from-green to-dark">
-          <h3 className="text-2xl font-bold">¡Te invito a conocer mis trabajos y proyectos realizados!</h3>
-          <p className="text-3xl mt-6">🔽</p>
-        </div>
-
-        <div className="text-center mt-24">
-          <Title name="Aplicaciones Web (Web Apps)" />
+        <div className="text-center mt-24" id="works">
+          <Title name="Aplicaciones Web" />
           <div className="grid grid-cols-1 md:grid-cols-3 mx-2 md:mx-12">
             {GinoWorks.apps.map((app) => (
               <Card
@@ -111,11 +119,12 @@ export default function Home() {
       </main>
 
       <div className="m-12 text-center mt-32 text-dark">
-          <h3 className="text-2xl font-bold">¡Gracias por recorrer mis trabajos! Para cualquier tipo de consulta no dudes en escribirme 😊</h3>
-          <Networks />
-         
-        
-        </div>
+        <h3 className="text-2xl font-bold">
+          ¡Gracias por recorrer mis trabajos! Para cualquier tipo de consulta no
+          dudes en escribirme 😊
+        </h3>
+        <Networks />
+      </div>
 
       <footer className="text-center bg-dark text-white mt-12">
         <a
